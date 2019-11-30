@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+// var user = "pakistan"
+// alert(user.slice(2,6))  //2 -> index   6 -> character
+
+
+// var month = prompt("enter any month")
+// alert(month.slice(0,3))
+
+// var a = "Lorem Ipsum is simply dummy text of the printing -- and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+// var lenght = a.length;
+// for(var i=0;i<lenght;i++){
+//     if(a.slice(i,i+4)=="text"){
+//         alert("text found!");
+//         break;
+//     }
+// }
+
+
+
+//  var a = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+// for(var i=0;i<a.length;i++){
+//     if(a.slice(i,i+4)=="text"){
+//          a= a.slice(0,i) + "texting" + a.slice(i+4);
+//         // alert("a")
+        
+//     }
+
+
+// }
+// alert(a)
+
+var a = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+var b = a.replace("text","texting"); //only one text change into texting
+var b = a.replace(/text/g,"texting"); //mutiple text change into texting
+alert(b)
+
+</script>
+</body>
+</html>
