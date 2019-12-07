@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var days = new Date("june 30, 2035");
+var now = new Date();
+var days_time = days.getTime();
+var now_time = now.getTime();
+var time_dif = days_time - now_time;
+var dDiff = time_dif / (1000 * 60 * 60 * 24 * 365); 
+alert(Math.floor(dDiff));
+
+
+
+
+
+</script>    
+</body>
+</html>
